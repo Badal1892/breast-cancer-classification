@@ -1,65 +1,70 @@
-# 🚀 Manager Dashboard
+# 🧠 Breast Cancer Classification using Machine Learning
 
-A modern and responsive **Manager Dashboard Web Application** built using HTML, CSS, and JavaScript.  
-This project is developed as part of the assignment and follows all required guidelines with additional advanced features.
-
----
-
-## 🌐 Live Demo
-🔗 https://Badal1892.github.io/manager-dashboard/
+This project focuses on building a **machine learning model** to classify breast cancer tumors as **Malignant (M)** or **Benign (B)** using real-world medical data.
 
 ---
 
-## 📁 GitHub Repository
-🔗 https://github.com/Badal1892/manager-dashboard
+## 📊 Project Overview
+
+Breast cancer is one of the most common cancers worldwide. Early detection can significantly improve survival rates.  
+This project applies machine learning techniques to assist in **accurate and early diagnosis**.
 
 ---
 
-## ✨ Features
+## 🎯 Objectives
 
-### 👥 Team Management
-- Add new team members
-- Display team list dynamically
-- Attendance tracking (Present / On Leave)
-- Toggle attendance status
+- Analyze breast cancer dataset
+- Perform data preprocessing and visualization
+- Train machine learning models
+- Evaluate model performance
+- Predict whether a tumor is malignant or benign
 
-### 📊 Dashboard Overview
-- Stats cards (Members, Tasks, Completed, Pending)
-- Performance rating system ⭐
-- Circular progress indicator (SVG)
+---
 
-### 📝 Task Management
-- Assign tasks using modal form
-- Display active tasks with deadlines
+## 📁 Dataset
 
-### ⚡ Dynamic Functionality
-- Data handled using `data.js`
-- Modular JavaScript (ES6 Modules)
-- DOM manipulation and rendering
-
-### 🌐 API Simulation
-- Uses `fetch()` for simulated API calls
-- Error handling implemented
-
-### 🎨 UI/UX Design
-- Glassmorphism UI
-- Responsive layout
-- Hover effects & animations
-- Clean and modern design
-
-### 🔔 Extra Features
-- Toast notifications
-- Profile dropdown menu
-- Dark mode toggle
+- Dataset used: **Breast Cancer Wisconsin Dataset**
+- Features include:
+  - Radius
+  - Texture
+  - Perimeter
+  - Area
+  - Smoothness
+  - And more...
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3 (Glassmorphism)
-- JavaScript (ES6 Modules)
+- Python 🐍
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib / Seaborn
+- Scikit-learn
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Workflow
+
+1. Data Loading
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Selection
+5. Model Training (e.g., Logistic Regression / KNN / SVM)
+6. Model Evaluation (Accuracy, Confusion Matrix)
+7. Prediction
+
+---
+
+## 📈 Results
+
+- Achieved high accuracy in classification
+- Model successfully distinguishes between malignant and benign tumors
+- Visualization helps in better understanding of features
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
